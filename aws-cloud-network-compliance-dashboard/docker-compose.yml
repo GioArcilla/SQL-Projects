@@ -1,0 +1,9 @@
+### If using local Postgres instead of RDS
+version: '3.8'
+
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    command: python run_scan.py
