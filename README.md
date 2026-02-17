@@ -30,3 +30,4 @@ Linux, Bash, AWS, SolarWinds, Splunk, SQL, Powershell, VsCode, Python
 
 ### Build Status
 2-15-2026: Developing framework and problem/solution scope
+2-16-2026: aws-compliance-dashboard deployed 
