@@ -16,10 +16,16 @@ load_dotenv()
 REGION = os.getenv("AWS_REGION")
 
 def main():
+    if not REGION:
+        raise ValueError("AWS_REGION not set in environment variables")
+
     print("Collecting AWS resources...")
+
     collect_vpcs(REGION)
     collect_subnets(REGION)
+    collect_route_tables(REGION)
+    collect_security_groups(REGION)
+    collect_ec2_instances(REGION)
+
     print("Collection complete.")
 
-if __name__ == "__main__":
-    main()
