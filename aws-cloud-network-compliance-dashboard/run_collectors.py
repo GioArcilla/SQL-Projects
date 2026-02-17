@@ -2,8 +2,14 @@
 import os
 from dotenv import load_dotenv
 
-from collectors.vpc_collector import collect_vpcs
-from collectors.subnet_collector import collect_subnets
+from collectors import (
+    collect_vpcs,
+    collect_subnets,
+    collect_route_tables,
+    collect_security_groups,
+    collect_ec2_instances,
+)
+
 
 load_dotenv()
 
