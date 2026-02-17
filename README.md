@@ -17,11 +17,13 @@ Linux, Bash, AWS, SolarWinds, Splunk, SQL, Powershell, VsCode, Python
 - AWS Ready
 
 ### Index
-1) Network Asset Manager
-2) SQL Log Analysis Engine
-3) Cloud Cost Analytics
-4) AI Network Knowledge Base
-5) CMDB with Ansible Integration
+
+1) AWS Compliance Dashboard
+2) Network Asset Manager
+3) SQL Log Analysis Engine
+4) Cloud Cost Analytics
+5) AI Network Knowledge Base
+6) CMDB with Ansible Integration
 
 ### Version History
 2-15-2026: Initial repo, README added
