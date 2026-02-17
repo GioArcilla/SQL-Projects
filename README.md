@@ -10,6 +10,7 @@ Linux, Bash, AWS, SolarWinds, Splunk, SQL, Powershell, VsCode, Python
 - JOIN Queries
 - Stored Procedures
 - Performance Tuning
+- Software Governance
 
 ## Future Additions:
 - Docker Deployment
